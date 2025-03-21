@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0"
+  },
+  "name": "mcpserver",
+  "version": "1.0.0",
+  "description": "Gaurav Kabra's MPC",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MCP",
+    "Gaurav",
+    "Kabra",
+    "Model",
+    "Context",
+    "Protocol"
+  ],
+  "author": "Gaurav Kabra",
+  "license": "ISC"
+}
