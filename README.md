@@ -10,7 +10,7 @@ The Model Context Protocol (MCP) is a standardized way, introduced by Anthropic,
 
 ![](./assets/img1.png)
 → Agents 
-![](./assets/img2.png)→ 
+![](./assets/img2.png)→ MCP
 ![](./assets/img3.png)
 The 2nd figure is like this:
 ![](./assets/img4.png)
@@ -43,7 +43,22 @@ npm install @modelcontextprotocol/sdk
 
 See [this](https://github.com/modelcontextprotocol/typescript-sdk) for official documentation.
 
-Now in Cursor IDE, click on Settings cog -> MCP and it should show the `add` tool available:
+Now in Cursor IDE, click on Settings cog -> MCP. Create the file `mcp.json` and put below code:
+
+```json
+{
+    "mcpServers": {
+        "Gaurav Kabra's MCP Server": {
+        "command": "node",
+        "args": ["/Users/gauravkabra/Desktop/MCPServer/index.js"]
+        }
+    }
+}
+```
+
+Replace `args` with absolute path (full path) of `index.js` on your local.
+
+And now it should show the `add` tool available:
 ![](./assets/mcpDemo.png)
 
 You can find documentation [here](https://docs.cursor.com/context/model-context-protocol).
